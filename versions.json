@@ -1,0 +1,324 @@
+{
+ "schema": 1,
+ "generated": "2026-11-24T00:17:54+00:00",
+ "tools": {
+  "chasemaker": {
+   "name": "ChaseMaker",
+   "mac": "0.9.2",
+   "win": "0.9.2",
+   "notes": "First IFTK release (same binaries as GitHub v0.9.2). Needs EXRDemux."
+  },
+  "cocainekenburns": {
+   "name": "CocaineKenBurns",
+   "mac": "0.2.0",
+   "win": "0.2.0",
+   "notes": "Light trails are baked into each picture (they ride with the photo, no pre-roll); Trail Horizontal/Vertical, Trails Follow Move, Trail Seed; new defaults (street-level streaks)."
+  },
+  "exrdemux": {
+   "name": "EXRDemux",
+   "mac": "0.9.1",
+   "win": "0.9.1",
+   "notes": "EXRDemux 0.9.1: first catalog release."
+  },
+  "light_builder": {
+   "name": "Light Builder",
+   "mac": "2.2.2",
+   "win": "2.2.2",
+   "notes": "Ctrl+Shift+L now stops the tool wherever the mouse is (before, only with the mouse over the 3D view). Esc still always stops it."
+  },
+  "lightgroup_tools": {
+   "name": "Lightgroup Tools",
+   "mac": "1.1.0",
+   "win": "1.1.0",
+   "notes": "Now installed and updated through IFTK."
+  },
+  "noahaurorah": {
+   "name": "NoahAurorah",
+   "mac": "1.0.0-b7",
+   "win": "1.0.0-b7",
+   "notes": "Fix: no aurora on footage bigger than the comp or with track mattes in AE 2025."
+  },
+  "noahbevelah": {
+   "name": "NoahBevelah",
+   "mac": "1.1.0-b1",
+   "win": "1.1.0-b1",
+   "notes": "Windows now renders on the GPU (CUDA), like the Mac. Old projects look the same."
+  },
+  "noahblowah2": {
+   "name": "NoahBlowah",
+   "mac": "2.3.0-b1",
+   "win": "2.3.0-b1",
+   "notes": "Windows now renders on the GPU (CUDA), like the Mac. The look is unchanged."
+  },
+  "noahchromah": {
+   "name": "NoahChromah",
+   "mac": "1.2.0-b1",
+   "win": "1.2.0-b1",
+   "notes": "Windows now renders on the GPU (CUDA), like the Mac, and is 4-6x faster. Old projects look the same."
+  },
+  "noahdenoisah": {
+   "name": "NoahDenoisah",
+   "mac": "1.2.0",
+   "win": "1.2.0",
+   "notes": "The Mac catches up to Windows 1.2.0: Draft Mode, Strength up to 2000%, and faster on the GPU."
+  },
+  "noahdisplaceah": {
+   "name": "NoahDisplaceah",
+   "mac": "1.0.0-b5",
+   "win": "1.0.0-b5",
+   "notes": "Windows catches up: the Amount sliders show plain pixels."
+  },
+  "noahdottah": {
+   "name": "NoahDottah",
+   "mac": "1.1.0-b1",
+   "win": "1.1.0-b1",
+   "notes": "First Windows build, on the GPU (CUDA) like the Mac."
+  },
+  "noahdrostah": {
+   "name": "NoahDrostah",
+   "mac": "1.1.0-b3",
+   "win": "1.1.0-b3",
+   "notes": "The Mac catches up to Windows 1.1.0-b3 and is a little faster on the GPU."
+  },
+  "noahelectrah": {
+   "name": "NoahElectrah",
+   "mac": "1.0.0-b6",
+   "win": "1.0.0-b6",
+   "notes": "Core Glow, whole-number Forks/Strike Life/Seed/Loop Length, an Electrah mask to limit bolts, Blend Mode and new defaults, now on Mac and Windows."
+  },
+  "noahfixah": {
+   "name": "NoahFixah",
+   "mac": "1.1.0-b13",
+   "win": "1.1.0-b13",
+   "notes": "First Windows build: Stabilize on the GPU (CUDA) and frame blending on DirectML. Renders are now repeatable under GPU load."
+  },
+  "noahflarah": {
+   "name": "NoahFlarah",
+   "mac": "0.7.0-b1",
+   "win": "0.7.0-b1",
+   "notes": "Mac catches up to Windows 0.7.0: both build from one source, GPU on both (Metal / CUDA). The Mac's 4K 3D spot beam renders almost 4x faster. Old projects look the same."
+  },
+  "noahflowah": {
+   "name": "NoahFlowah",
+   "mac": "1.1.0-b3",
+   "win": "1.1.0-b3",
+   "notes": "First Windows build, on the GPU (CUDA). The sim now matches on Mac and Windows; old 1.0 projects get a different swirl pattern with the same look."
+  },
+  "noahglassah": {
+   "name": "NoahGlassah",
+   "mac": "0.1.0-b4",
+   "win": "0.1.0-b4",
+   "notes": "New: refractive glass logo effect (Classic MS6 look + reflections, frost, iridescence, dispersion, tint). Goes on an adjustment layer pointed at a hidden logo layer; read Documentation for setup."
+  },
+  "noahglitchah": {
+   "name": "NoahGlitchah",
+   "mac": "1.1.0-b1",
+   "win": "1.1.0-b1",
+   "notes": "The Mac catches up to Windows 1.1.0-b1. The look is unchanged."
+  },
+  "noahglowah": {
+   "name": "NoahGlowah",
+   "mac": "1.6.0",
+   "win": "1.6.0",
+   "notes": "Windows now renders on the GPU (NVIDIA RTX 20 / GTX 16 or newer; other cards use the CPU). Mac is unchanged."
+  },
+  "noahkaleidah": {
+   "name": "NoahKaleidah",
+   "mac": "0.1.0-b6",
+   "win": "0.1.0-b6",
+   "notes": "First release: Wedge, Tile (any lattice angle), Triangle Tile, Hex Tile and Spiral kaleidoscopes, with source spin and drift, Loop Frames, time variants, chromatic split, motion blur and Randomize. Metal on Mac, CUDA on Windows."
+  },
+  "noahmappah": {
+   "name": "NoahMappah",
+   "mac": "1.2.0-b4",
+   "win": "1.2.0-b4",
+   "notes": "Windows now renders on the GPU (CUDA), like the Mac. Old projects look the same."
+  },
+  "noahmatteandfillah": {
+   "name": "NoahMatteandFillah",
+   "mac": "1.6.5",
+   "win": "1.6.5",
+   "notes": "First release: one-click Fill and Matte renders (ProRes 422 or PNG) for the selected comp or still."
+  },
+  "noahmovah": {
+   "name": "NoahMovah",
+   "mac": "1.0.0-b16",
+   "win": "1.0.0-b16",
+   "notes": "First release. GPU on Mac (Metal) and Windows (CUDA)."
+  },
+  "noahperspectah": {
+   "name": "NoahPerspectah",
+   "mac": "1.3.0-b3",
+   "win": "1.3.0-b3",
+   "notes": "New Room modes (Back Wall, Corner) with their own floor and ceiling vanishing points, and GPU rendering on Mac and Windows."
+  },
+  "noahpinnah": {
+   "name": "NoahPinnah",
+   "mac": "0.1.0-b1",
+   "win": "0.1.0-b1",
+   "notes": "First release: corner pin from markers on the content's corners, on-screen pin handles, output grows past layer edges, Smooth supersampling. Metal on Mac, CUDA on Windows."
+  },
+  "noahplexah": {
+   "name": "NoahPlexah",
+   "mac": "0.2.0-b2",
+   "win": "0.2.0-b2",
+   "notes": "Mac and Windows are on one version now: Rebuild Continuous, Lines Only default, Lock Over Time and Echo in 3D."
+  },
+  "noahplotah": {
+   "name": "NoahPlotah",
+   "mac": "0.3.0-b4",
+   "win": "0.3.0-b4",
+   "notes": "Fix: projects made before 0.3 keep their old look (Contrast Blend opens at 0%). New copies start at 100%."
+  },
+  "noahprojectah": {
+   "name": "NoahProjectah",
+   "mac": "1.0.0-b7",
+   "win": "1.0.0-b7",
+   "notes": "First release. GPU on Mac (Metal) and Windows (CUDA)."
+  },
+  "noahrampah": {
+   "name": "NoahRampah",
+   "mac": "1.0.0-b10",
+   "win": "1.0.0-b10",
+   "notes": "Windows now renders on the GPU (CUDA), like the Mac. The look is unchanged."
+  },
+  "noahrayah": {
+   "name": "NoahRayah",
+   "mac": "1.6.1",
+   "win": "1.6.1",
+   "notes": "Now runs on the GPU on Mac too (Metal), matching Windows 1.6.1 (CUDA): 2-4x faster than the CPU. Looks the same as before on both platforms."
+  },
+  "noahreflectah": {
+   "name": "NoahReflectah",
+   "mac": "0.4.0-b2",
+   "win": "0.4.0-b2",
+   "notes": "New Edge Mirror modes: Ellipse Mirror and Shape Mirror (moved in from NoahKaleidah), with the Surface controls applying to them. Mode is now at the top of the panel and every slider starts collapsed. Old projects render exactly the same. GPU on Mac (Metal) and Windows (CUDA)."
+  },
+  "noahripplah": {
+   "name": "NoahRipplah",
+   "mac": "1.1.0",
+   "win": "1.1.0",
+   "notes": "Windows now renders on the GPU (CUDA), like the Mac. Old projects look the same."
+  },
+  "noahshadowah": {
+   "name": "NoahShadowah",
+   "mac": "0.2.0-b6",
+   "win": "0.2.0-b6",
+   "notes": "First release. GPU on Mac (Metal) and Windows (CUDA)."
+  },
+  "noahshapah": {
+   "name": "NoahShapeah",
+   "mac": "0.5.0-b6",
+   "win": "0.5.0-b6",
+   "notes": "The whole frame now renders on the GPU on Mac and Windows, and is about 10x faster at high shape counts."
+  },
+  "noahsharpah": {
+   "name": "NoahSharpah",
+   "mac": "1.2.0-b1",
+   "win": "1.2.0-b1",
+   "notes": "Windows now renders on the GPU (CUDA), like the Mac. Old projects look the same."
+  },
+  "noahshufflah": {
+   "name": "NoahShufflah",
+   "mac": "0.1.0-b4",
+   "win": "0.1.0-b4",
+   "notes": "First release. GPU on Mac (Metal) and Windows (CUDA)."
+  },
+  "noahsingularitah": {
+   "name": "NoahSingularitah",
+   "mac": "0.1.0",
+   "win": "0.1.0",
+   "notes": "First release: a black hole around the layer's first mask, with a streaky halo, an accretion ring that bends over the hole (Ring Blend from portal to front ring), particles, glow and bloom, all looping. Metal on Mac, CUDA on Windows."
+  },
+  "noahsmokah": {
+   "name": "NoahSmokah",
+   "mac": "1.3.0-b2",
+   "win": "1.3.0-b2",
+   "notes": "Now runs on the GPU on Windows too (CUDA), from the same engine as the Mac (Metal): about 0.75 s per 4K frame vs 1-2.6 s on the CPU. Old projects look the same (within 1 level). Brightness mode on the Mac GPU now keeps the layer solid where the smoke has gone, matching the Mac CPU and Windows; over non-black backgrounds, late frames of old Mac GPU Brightness renders change."
+  },
+  "noahsortah": {
+   "name": "NoahSortah",
+   "mac": "0.1.0-b6",
+   "win": "0.1.0-b6",
+   "notes": "First release. GPU on Mac (Metal) and Windows (CUDA)."
+  },
+  "noahsparkah": {
+   "name": "NoahSparkah",
+   "mac": "0.10.0-b15",
+   "win": "0.10.0-b15",
+   "notes": "Windows gets everything from b12-b15: per-instance sim caches, Layer Motion, Name Group and Blender Data emitters. Old projects look the same."
+  },
+  "noahstarah": {
+   "name": "NoahStarah",
+   "mac": "1.14.0",
+   "win": "1.14.0",
+   "notes": "Streaks render on the GPU on Mac and Windows. Sharp Stars now use the CPU in GPU projects, which is faster in real renders."
+  },
+  "noahstickah": {
+   "name": "NoahStickah",
+   "mac": "1.0.0-b3",
+   "win": null,
+   "notes": "NoahStickah 1.0 b3: Metal GPU path on the Mac (render on the GPU; analysis unchanged). Same pixels as the CPU path; old projects render unchanged."
+  },
+  "noahstreakah": {
+   "name": "NoahStreakah",
+   "mac": "0.1.0-b6",
+   "win": "0.1.0-b6",
+   "notes": "Fix: a layer bigger than its comp (or pushed off it) now renders in AE 2025."
+  },
+  "noahstrokah": {
+   "name": "NoahStrokah",
+   "mac": "0.1.0-b13",
+   "win": "0.1.0-b13",
+   "notes": "First release (experimental). Stroke around alpha with gradient rings, dashes, write-on, taper, distort and inner glow."
+  },
+  "noahtypah": {
+   "name": "NoahTypah",
+   "mac": "0.1.0-b16",
+   "win": "0.1.0-b16",
+   "notes": "First release (experimental). Effect + style picker panel installed together. Needs IFTK 0.2.16 or newer for the panel."
+  },
+  "noahupscalah": {
+   "name": "NoahUpscalah",
+   "mac": "0.1.0-b9",
+   "win": "0.1.0-b9",
+   "notes": "First Windows build, on the GPU (DirectML and CUDA), about 10-20x faster than the CPU."
+  },
+  "noahvibrah": {
+   "name": "NoahVibrah",
+   "mac": "1.1.0",
+   "win": "1.1.0",
+   "notes": "Now renders on the GPU on Mac and Windows: about 4-8 ms a 4K frame, against 238 ms for Adobe Vibrance. Old projects look the same."
+  },
+  "noahvignettah": {
+   "name": "NoahVignettah",
+   "mac": "1.4.0",
+   "win": "1.4.0",
+   "notes": "Now renders on the GPU: Metal on Mac, CUDA on Windows, with the same look as before."
+  },
+  "noahwaftah": {
+   "name": "NoahWaftah",
+   "mac": "0.1.0-b6",
+   "win": "0.1.0-b6",
+   "notes": "New: Hold Above Paths (on for new applications). Older projects render exactly as before."
+  },
+  "noahwarpah": {
+   "name": "NoahWarpah",
+   "mac": "1.0.0-b3",
+   "win": "1.1.0-b1",
+   "notes": "Windows build with GPU (CUDA)."
+  },
+  "noahwrapah": {
+   "name": "NoahWrapah",
+   "mac": "0.3.0-b1",
+   "win": "0.3.0-b1",
+   "notes": "The Mac catches up to Windows 0.3.0 and renders about twice as fast on the GPU."
+  },
+  "noahwritah": {
+   "name": "NoahWritah",
+   "mac": "0.1.0-b11",
+   "win": "0.1.0-b11",
+   "notes": "First release: Text, Line Art and Shape modes, Fix Strokes. Windows runs on the CPU (fastest there)."
+  }
+ }
+}
