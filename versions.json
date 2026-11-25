@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-24T00:17:54+00:00",
+ "generated": "2026-11-25T16:57:45+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -94,9 +94,9 @@
   },
   "noahflarah": {
    "name": "NoahFlarah",
-   "mac": "0.7.0-b1",
-   "win": "0.7.0-b1",
-   "notes": "Mac catches up to Windows 0.7.0: both build from one source, GPU on both (Metal / CUDA). The Mac's 4K 3D spot beam renders almost 4x faster. Old projects look the same."
+   "mac": "0.8.0-b1",
+   "win": "0.8.0-b1",
+   "notes": "New Blender Lights (AE Bridge) source with a Blender Lights import button. New defaults: Smoke Scale 150, Aspect 1 (saved layers keep their values)."
   },
   "noahflowah": {
    "name": "NoahFlowah",
