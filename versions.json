@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:06:07+00:00",
+ "generated": "2026-11-25T17:06:15+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -316,9 +316,9 @@
   },
   "noahwritah": {
    "name": "NoahWritah",
-   "mac": "0.1.0-b11",
-   "win": "0.1.0-b11",
-   "notes": "First release: Text, Line Art and Shape modes, Fix Strokes. Windows runs on the CPU (fastest there)."
+   "mac": "0.1.0-b12",
+   "win": "0.1.0-b12",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahWritah control by number now point one control further down; by-name expressions are unaffected."
   }
  }
 }
