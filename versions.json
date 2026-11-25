@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:00:44+00:00",
+ "generated": "2026-11-25T17:00:52+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -64,9 +64,9 @@
   },
   "noahdisplaceah": {
    "name": "NoahDisplaceah",
-   "mac": "1.0.0-b5",
-   "win": "1.0.0-b5",
-   "notes": "Windows catches up: the Amount sliders show plain pixels."
+   "mac": "1.0.0-b6",
+   "win": "1.0.0-b6",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahDisplaceah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahdottah": {
    "name": "NoahDottah",
