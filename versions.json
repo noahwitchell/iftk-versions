@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:01:09+00:00",
+ "generated": "2026-11-25T17:01:17+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -82,9 +82,9 @@
   },
   "noahelectrah": {
    "name": "NoahElectrah",
-   "mac": "1.0.0-b6",
-   "win": "1.0.0-b6",
-   "notes": "Core Glow, whole-number Forks/Strike Life/Seed/Loop Length, an Electrah mask to limit bolts, Blend Mode and new defaults, now on Mac and Windows."
+   "mac": "1.0.0-b7",
+   "win": "1.0.0-b7",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahElectrah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahfixah": {
    "name": "NoahFixah",
