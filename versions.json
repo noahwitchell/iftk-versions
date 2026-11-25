@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:01:35+00:00",
+ "generated": "2026-11-25T17:01:43+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -100,9 +100,9 @@
   },
   "noahflowah": {
    "name": "NoahFlowah",
-   "mac": "1.1.0-b3",
-   "win": "1.1.0-b3",
-   "notes": "First Windows build, on the GPU (CUDA). The sim now matches on Mac and Windows; old 1.0 projects get a different swirl pattern with the same look."
+   "mac": "1.1.0-b4",
+   "win": "1.1.0-b4",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahFlowah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahglassah": {
    "name": "NoahGlassah",
