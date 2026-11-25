@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T16:57:45+00:00",
+ "generated": "2026-11-25T16:58:07+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -226,9 +226,9 @@
   },
   "noahsingularitah": {
    "name": "NoahSingularitah",
-   "mac": "0.1.0",
-   "win": "0.1.0",
-   "notes": "First release: a black hole around the layer's first mask, with a streaky halo, an accretion ring that bends over the hole (Ring Blend from portal to front ring), particles, glow and bloom, all looping. Metal on Mac, CUDA on Windows."
+   "mac": "0.2.0-b1",
+   "win": "0.2.0-b1",
+   "notes": "New Lens controls (Lens Strength, Lens Swirl). One black hole per closed mask, up to 32, sharing the same settings; a single mask looks the same as before."
   },
   "noahsmokah": {
    "name": "NoahSmokah",
