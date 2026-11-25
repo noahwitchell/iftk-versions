@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:02:26+00:00",
+ "generated": "2026-11-25T17:02:35+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -148,9 +148,9 @@
   },
   "noahperspectah": {
    "name": "NoahPerspectah",
-   "mac": "1.3.0-b3",
-   "win": "1.3.0-b3",
-   "notes": "New Room modes (Back Wall, Corner) with their own floor and ceiling vanishing points, and GPU rendering on Mac and Windows."
+   "mac": "1.3.0-b4",
+   "win": "1.3.0-b4",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahPerspectah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahpinnah": {
    "name": "NoahPinnah",
