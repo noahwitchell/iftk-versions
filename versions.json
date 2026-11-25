@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T18:15:21+00:00",
+ "generated": "2026-11-25T18:15:29+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -256,9 +256,9 @@
   },
   "noahstickah": {
    "name": "NoahStickah",
-   "mac": "1.0.0-b3",
+   "mac": "1.0.0-b4",
    "win": null,
-   "notes": "NoahStickah 1.0 b3: Metal GPU path on the Mac (render on the GPU; analysis unchanged). Same pixels as the CPU path; old projects render unchanged."
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahStickah control by number now point one control further down; by-name expressions are unaffected. Mac only."
   },
   "noahstreakah": {
    "name": "NoahStreakah",
