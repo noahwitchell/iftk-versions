@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:05:04+00:00",
+ "generated": "2026-11-25T17:05:18+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -274,9 +274,9 @@
   },
   "noahtypah": {
    "name": "NoahTypah",
-   "mac": "0.1.0-b16",
-   "win": "0.1.0-b16",
-   "notes": "First release (experimental). Effect + style picker panel installed together. Needs IFTK 0.2.16 or newer for the panel."
+   "mac": "0.1.0-b17",
+   "win": "0.1.0-b17",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahTypah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahupscalah": {
    "name": "NoahUpscalah",
