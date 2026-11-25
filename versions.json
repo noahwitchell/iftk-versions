@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:01:26+00:00",
+ "generated": "2026-11-25T17:01:35+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -94,9 +94,9 @@
   },
   "noahflarah": {
    "name": "NoahFlarah",
-   "mac": "0.8.0-b1",
-   "win": "0.8.0-b1",
-   "notes": "New Blender Lights (AE Bridge) source with a Blender Lights import button. New defaults: Smoke Scale 150, Aspect 1 (saved layers keep their values)."
+   "mac": "0.8.0-b2",
+   "win": "0.8.0-b2",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahFlarah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahflowah": {
    "name": "NoahFlowah",
