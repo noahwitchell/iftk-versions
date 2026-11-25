@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:04:40+00:00",
+ "generated": "2026-11-25T17:04:48+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -250,9 +250,9 @@
   },
   "noahstarah": {
    "name": "NoahStarah",
-   "mac": "1.14.0",
-   "win": "1.14.0",
-   "notes": "Streaks render on the GPU on Mac and Windows. Sharp Stars now use the CPU in GPU projects, which is faster in real renders."
+   "mac": "1.15.1-b1",
+   "win": "1.15.1-b1",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahStarah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahstickah": {
    "name": "NoahStickah",
