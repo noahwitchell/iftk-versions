@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:03:49+00:00",
+ "generated": "2026-11-25T17:03:58+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -208,9 +208,9 @@
   },
   "noahshapah": {
    "name": "NoahShapeah",
-   "mac": "0.5.0-b6",
-   "win": "0.5.0-b6",
-   "notes": "The whole frame now renders on the GPU on Mac and Windows, and is about 10x faster at high shape counts."
+   "mac": "0.5.0-b13",
+   "win": "0.5.0-b13",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahShapeah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahsharpah": {
    "name": "NoahSharpah",
