@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:02:35+00:00",
+ "generated": "2026-11-25T17:02:43+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -154,9 +154,9 @@
   },
   "noahpinnah": {
    "name": "NoahPinnah",
-   "mac": "0.1.0-b1",
-   "win": "0.1.0-b1",
-   "notes": "First release: corner pin from markers on the content's corners, on-screen pin handles, output grows past layer edges, Smooth supersampling. Metal on Mac, CUDA on Windows."
+   "mac": "0.1.0-b2",
+   "win": "0.1.0-b2",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahPinnah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahplexah": {
    "name": "NoahPlexah",
