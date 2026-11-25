@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:04:56+00:00",
+ "generated": "2026-11-25T17:05:04+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -268,9 +268,9 @@
   },
   "noahstrokah": {
    "name": "NoahStrokah",
-   "mac": "0.1.0-b13",
-   "win": "0.1.0-b13",
-   "notes": "First release (experimental). Stroke around alpha with gradient rings, dashes, write-on, taper, distort and inner glow."
+   "mac": "0.1.0-b14",
+   "win": "0.1.0-b14",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahStrokah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahtypah": {
    "name": "NoahTypah",
