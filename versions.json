@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:03:16+00:00",
+ "generated": "2026-11-25T17:03:24+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -184,9 +184,9 @@
   },
   "noahrayah": {
    "name": "NoahRayah",
-   "mac": "1.6.1",
-   "win": "1.6.1",
-   "notes": "Now runs on the GPU on Mac too (Metal), matching Windows 1.6.1 (CUDA): 2-4x faster than the CPU. Looks the same as before on both platforms."
+   "mac": "1.6.2-b1",
+   "win": "1.6.2-b1",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahRayah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahreflectah": {
    "name": "NoahReflectah",
