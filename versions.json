@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:02:51+00:00",
+ "generated": "2026-11-25T17:02:59+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -166,9 +166,9 @@
   },
   "noahplotah": {
    "name": "NoahPlotah",
-   "mac": "0.3.0-b4",
-   "win": "0.3.0-b4",
-   "notes": "Fix: projects made before 0.3 keep their old look (Contrast Blend opens at 0%). New copies start at 100%."
+   "mac": "0.3.0-b5",
+   "win": "0.3.0-b5",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahPlotah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahprojectah": {
    "name": "NoahProjectah",
