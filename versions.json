@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:04:32+00:00",
+ "generated": "2026-11-25T17:04:40+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -238,9 +238,9 @@
   },
   "noahsortah": {
    "name": "NoahSortah",
-   "mac": "0.1.0-b6",
-   "win": "0.1.0-b6",
-   "notes": "First release. GPU on Mac (Metal) and Windows (CUDA)."
+   "mac": "0.1.0-b7",
+   "win": "0.1.0-b7",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahSortah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahsparkah": {
    "name": "NoahSparkah",
