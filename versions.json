@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:02:01+00:00",
+ "generated": "2026-11-25T17:02:09+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -124,9 +124,9 @@
   },
   "noahkaleidah": {
    "name": "NoahKaleidah",
-   "mac": "0.1.0-b6",
-   "win": "0.1.0-b6",
-   "notes": "First release: Wedge, Tile (any lattice angle), Triangle Tile, Hex Tile and Spiral kaleidoscopes, with source spin and drift, Loop Frames, time variants, chromatic split, motion blur and Randomize. Metal on Mac, CUDA on Windows."
+   "mac": "0.1.0-b7",
+   "win": "0.1.0-b7",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahKaleidah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahmappah": {
    "name": "NoahMappah",
