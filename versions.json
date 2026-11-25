@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:01:17+00:00",
+ "generated": "2026-11-25T17:01:26+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -88,9 +88,9 @@
   },
   "noahfixah": {
    "name": "NoahFixah",
-   "mac": "1.1.0-b13",
-   "win": "1.1.0-b13",
-   "notes": "First Windows build: Stabilize on the GPU (CUDA) and frame blending on DirectML. Renders are now repeatable under GPU load."
+   "mac": "1.1.0-b14",
+   "win": "1.1.0-b14",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahFixah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahflarah": {
    "name": "NoahFlarah",
