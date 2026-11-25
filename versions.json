@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:00:35+00:00",
+ "generated": "2026-11-25T17:00:44+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -58,9 +58,9 @@
   },
   "noahdenoisah": {
    "name": "NoahDenoisah",
-   "mac": "1.2.0",
-   "win": "1.2.0",
-   "notes": "The Mac catches up to Windows 1.2.0: Draft Mode, Strength up to 2000%, and faster on the GPU."
+   "mac": "1.2.1-b1",
+   "win": "1.2.1-b1",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahDenoisah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahdisplaceah": {
    "name": "NoahDisplaceah",
