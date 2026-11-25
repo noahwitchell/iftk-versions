@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:01:43+00:00",
+ "generated": "2026-11-25T17:01:52+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -106,9 +106,9 @@
   },
   "noahglassah": {
    "name": "NoahGlassah",
-   "mac": "0.1.0-b4",
-   "win": "0.1.0-b4",
-   "notes": "New: refractive glass logo effect (Classic MS6 look + reflections, frost, iridescence, dispersion, tint). Goes on an adjustment layer pointed at a hidden logo layer; read Documentation for setup."
+   "mac": "0.1.0-b5",
+   "win": "0.1.0-b5",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahGlassah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahglitchah": {
    "name": "NoahGlitchah",
