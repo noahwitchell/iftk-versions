@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:04:13+00:00",
+ "generated": "2026-11-25T17:04:24+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -226,9 +226,9 @@
   },
   "noahsingularitah": {
    "name": "NoahSingularitah",
-   "mac": "0.2.0-b1",
-   "win": "0.2.0-b1",
-   "notes": "New Lens controls (Lens Strength, Lens Swirl). One black hole per closed mask, up to 32, sharing the same settings; a single mask looks the same as before."
+   "mac": "0.2.0-b2",
+   "win": "0.2.0-b2",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahSingularitah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahsmokah": {
    "name": "NoahSmokah",
