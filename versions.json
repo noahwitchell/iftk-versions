@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-25T17:05:28+00:00",
+ "generated": "2026-11-25T17:05:36+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -286,9 +286,9 @@
   },
   "noahvibrah": {
    "name": "NoahVibrah",
-   "mac": "1.1.0",
-   "win": "1.1.0",
-   "notes": "Now renders on the GPU on Mac and Windows: about 4-8 ms a 4K frame, against 238 ms for Adobe Vibrance. Old projects look the same."
+   "mac": "1.1.1-b1",
+   "win": "1.1.1-b1",
+   "notes": "Shows at the top of the controls when a newer version is in IFTK. Expressions that pick a NoahVibrah control by number now point one control further down; by-name expressions are unaffected."
   },
   "noahvignettah": {
    "name": "NoahVignettah",
