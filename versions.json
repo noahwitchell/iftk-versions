@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-26T02:52:21+00:00",
+ "generated": "2026-11-26T05:50:17+00:00",
  "tools": {
   "chasemaker": {
    "name": "ChaseMaker",
@@ -262,9 +262,9 @@
   },
   "noahsparkah": {
    "name": "NoahSparkah",
-   "mac": "0.10.0-b19",
-   "win": "0.10.0-b19",
-   "notes": "New Path Depth: Path Flow particles get real depth around the path. Also includes b18: Camera Depth of Field in Render (off by default), Path Trim Start/End under Emitter > Path, and the version strip at the top of the controls. Expressions that pick a NoahSparkah control by number now point one control further down; by-name expressions are unaffected."
+   "mac": "0.10.0-b20",
+   "win": "0.10.0-b20",
+   "notes": "New System Transform twirldown: Pivot, Position, X/Y/Z Rotation and Scale for the whole system. At its defaults the output matches b19 exactly."
   },
   "noahstarah": {
    "name": "NoahStarah",
